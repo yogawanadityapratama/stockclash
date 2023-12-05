@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* root */
+* {
+    font-family: 'Poppins', sans-serif;
+} body {
+    /* margin-left: 150px;
+    margin-right: 150px; */
+}
+
+/* navigation */
+.nav {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+} .nav-content {
+    width: fit-content;
+    border-radius: 100px;
+    margin-top: 64px;
+    border-radius: 100px;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    background-color: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(50px);
+} .nav-content button {
+    border: none;
+    background-color: rgba(217, 217, 217, 0.00);
+    margin: 6px;
+    padding:10px 25px 10px 25px ;
+    border-radius: 100px;
+} .nav-content button:hover {
+    background-color: blue;
+    color: white;
+}
+
+/* body */
+.h1 {
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+} .p {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+} .c1 {
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+} .c2 {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+/* hero */
+.logo {
+    text-align: center;
+    margin-top: 150px;
+} .logo img {
+    width: 60%;
+} .hero {
+    text-align: center;
+} .hero-button {
+    display: flex;
+    justify-content: center;
+} a {
+    padding: 10px 25px;
+    margin-left: 12px;
+    margin-right: 12px;
+    border-radius: 100px;
+} .active {
+    background: #0019FF;
+    text-decoration: none;
+    color: white;
+}
+
+/* about */
+.content {
+    padding: 25px;
+    border-radius: 40px;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+  }
+
+/* card */
+.card {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 64px;
+} .card-container {
+    width: 369px;
+    height: 318px;
+    padding: 31px 50px;
+    margin-bottom: 32px;
+    border-radius: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.30);
+    background: rgba(0, 25, 255, 0.00);
+}
+
+@media (max-width: 480px) {
+    body {
+        margin-left: 3px;
+        margin-right: 3px;
+    }
+} @media (min-width: 481px) and (max-width: 767px) {
+    body {
+        margin-left: 3px;
+        margin-right: 3px;
+    }
+} @media (min-width: 768px) and (max-width: 991px) {
+    body {
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+} @media (min-width: 992px) and (max-width: 1199px) {
+    body {
+        margin-left: 150px;
+        margin-right: 150px;
+    }
+} @media (min-width: 1200px) and (max-width: 1919px) {
+    body {
+        margin-left: 150px;
+        margin-right: 150px;
+    }
+} @media (min-width: 1920px) {
+    body {
+        margin-left: 150px;
+        margin-right: 150px;
+    }
+}
