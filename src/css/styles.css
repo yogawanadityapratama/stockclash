@@ -3,10 +3,7 @@
 /* root */
 * {
     font-family: 'Poppins', sans-serif;
-} body {
-    /* margin-left: 150px;
-    margin-right: 150px; */
-}
+} 
 
 /* navigation */
 .nav {
@@ -52,6 +49,10 @@
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
+} .c3 {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
 }
 
 /* hero */
@@ -74,6 +75,9 @@
     background: #0019FF;
     text-decoration: none;
     color: white;
+} .underline {
+    text-decoration: underline;
+    color: #0019FF;
 }
 
 /* about */
@@ -85,18 +89,37 @@
 
 /* card */
 .card {
+    width: 100%;
     display: flex;
-    justify-content: space-around;
     flex-wrap: wrap;
-    margin-top: 64px;
+    justify-content: space-around;
+    /* overflow-x: auto;
+    white-space: nowrap; */
 } .card-container {
-    width: 369px;
-    height: 318px;
+    width: 300px;
+    height: 128px;
+    border-radius: 30px;
+    padding: 30px 30px;
+    margin-bottom: 12px;
+    border: 1px solid rgba(0, 0, 0, 0.30);
+}
+
+
+
+/* .card-container {
+    width: 312px;
+    height: 156px;
     padding: 31px 50px;
-    margin-bottom: 32px;
+    margin-right: 6px;
+    margin-left: 6px;
     border-radius: 30px;
     border: 1px solid rgba(0, 0, 0, 0.30);
     background: rgba(0, 25, 255, 0.00);
+} */
+
+.work {
+    text-align: center;
+    margin-top: 64px;
 }
 
 @media (max-width: 480px) {
